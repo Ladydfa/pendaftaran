@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background: url(66.jpg);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header .logo {
+    color: #cf3e05;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+nav a{
+    text-decoration: none;
+    color: #640000;
+    margin-left: 40px;
+    border-radius: 20px;
+    padding: 10px;
+}
+header nav a:hover,
+header nav a.active{
+    background: skyblue;
+    color: azure;
+
+}
+
+.welcome {
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.welcome h1{
+    color: #cf3e05;
+    font-size: 2.5em;
+    font-weight: 1000;
+    letter-spacing: 0.1em;
+}
+
+.welcome h2 {
+    color: rgb(255, 97, 5);
+    font-size: small;
+
+}
+
+.welcome .registrasi {
+    border: none;
+    color: #f8aba0;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: 1000;
+    margin-top: 15px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    border-color: #f8aba0 ;
+    border-style: solid;
+    border-width: 1px;
+    background-color: transparent;
+}
+.welcome .registrasi:hover {
+    background-color: #f8aba0;
+    color: white;
+    
+}

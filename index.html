@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 style="text-align: center; color:black;">Formulir</h2>
+    <form action="" method="post">
+
+        <label for="nama">Nama:</label>
+        <input type="text"id="nama" name="nama"placeholder="Masukkan Nama anda" required>
+
+        <label for="email">Email:</label>
+        <input type="email"id="email" name="email"placeholder="Masukkan E-mail anda" required>
+
+        <label for="nomor">Nomor Telepon:</label>
+        <input type="tel"id="nomor" name="nomor"placeholder="Masukkan Nomor Telepon anda" required>
+
+        <label for="tanggal">Tanggal Lahir:</label>
+        <input type="date"id="tanggal" name="tanggal" required>
+
+        <label for="">Jenis Kelamin:</label>
+        <select>
+        
+            <option value="laki-laki">laki-laki</option>
+            <option value="wanita">wanita</option>
+        </select>
+
+        <label for="">Status:</label>
+        <div class="radio-group">
+
+            <input type="radio"name="status"value="Pekerja">Pekerja
+            <input type="radio"name="status"value="Mahasiswa">Mahasiswa
+            <input type="radio"name="status"value="Tidak Bekerja">Tidak Bekerja
+
+        </div>
+        <label for="pesan">Pesan atau Komentar:</label>
+        <textarea name="pesan" id="pesan"rows="5"placeholder="Tuliskan pesan dan komentar disini"></textarea>
+
+        <button type="submit">kirim</button>
+ 
+    </form>
+</body>
+</html>
